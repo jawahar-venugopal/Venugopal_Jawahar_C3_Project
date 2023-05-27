@@ -62,8 +62,14 @@ public class Restaurant {
     }
 
     public long getTotalOrderCost(List<String> itemNames) {
-        // TODO : Test Driven Development
-        return -1;
+        long totalCost = 0;
+        for (String itemName : itemNames) {
+            Item item = findItemByName(itemName);
+            if (item != null) {
+                totalCost = totalCost + item.getPrice();
+            }
+        }
+        return totalCost;
     }
 
 }

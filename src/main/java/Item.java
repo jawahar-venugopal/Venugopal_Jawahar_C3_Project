@@ -8,8 +8,7 @@ public class Item {
     }
 
     public int getPrice() {
-        // TODO : Test Driven Development
-        return 0;
+        return price;
     }
 
     public String getName() {
