@@ -61,4 +61,9 @@ public class Restaurant {
         return name;
     }
 
+    public long getTotalOrderCost(List<String> itemNames) {
+        // TODO : Test Driven Development
+        return -1;
+    }
+
 }

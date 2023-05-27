@@ -7,6 +7,11 @@ public class Item {
         this.price = price;
     }
 
+    public int getPrice() {
+        // TODO : Test Driven Development
+        return 0;
+    }
+
     public String getName() {
         return name;
     }
